@@ -1,0 +1,40 @@
+<html>
+    <head><title> Animal Form </title></head>
+    <body>
+        <form action="animals.php" method="post">
+            <p>
+                <label for="username">Enter your Username! </label>
+                <input type="text" id="username" name="username" required><br>
+            </p>
+
+            <p>
+                What animal are you most scared of? <br>
+                <input type="radio" id="spider" name="fear" value="Spider" required>
+                <label for="spider">Spider</label><br>
+
+                <input type="radio" id="shark" name="fear" value="Shark">
+                <label for="shake">Shark</label><br>
+
+                <input type="radio" id="beetle" name="fear" value="Beetle">
+                <label for="beetle">Beetle</label><br>
+
+                <input type="radio" id="fish" name="fear" value="Angler Fish">
+                <label for="fish">Angler Fish</label>
+            </p>
+
+            <p>
+                <label for="favorite">What is your favorite animal? </label>
+                <select id="favorite" name="favorite" required>
+                    <option value="Cat">Cat</option>
+                    <option value="Otter">Otter</option>
+                    <option value="Hamster">Hamster</option>
+                    <option value="Dog">Dog</option>
+                </select>
+            </p>
+
+            <p>
+                <button type="submit">Proceed</button>
+            </p>
+        </form>
+    </body>
+</html>

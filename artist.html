@@ -1,0 +1,36 @@
+<html>
+    <head><title> Artist Form </title></head>
+    <body>
+        <form action="insertartist.php" method="post">
+            <p>
+                <label for="fname">Enter Artist First Name </label>
+                <input type="text" id="fname" name="fname" required><br>
+            </p>
+
+            <p>
+                <label for="lname">Enter Artist Last Name </label>
+                <input type="text" id="lname" name="lname" required><br>
+            </p>
+
+            <p>
+                <label for="dob">Enter Artist Date of Birth </label>
+                <input type="date" id="dob" name="dob" required><br>
+            </p>
+
+            <p>
+                <label for="instrument">Enter Artist's Instrument Played </label>
+                <input type="text" id="instrument" name="instrument" required><br>
+            </p>
+
+            <p>
+                <label for="gender">Enter Artist Gender</label>
+                <input type="text" id="gender" name="gender" maxlength="1" required><br>
+            </p>
+
+            <p>
+                <button type="submit">Proceed</button>
+            </p>
+
+        </form>
+    </body>
+</html>
