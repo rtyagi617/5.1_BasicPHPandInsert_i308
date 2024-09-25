@@ -1,4 +1,4 @@
-https://cgi.luddy.indiana.edu/~rohtyagi/animal.html
+https://cgi.luddy.indiana.edu/~rohtyagi/animals.html
 
 
 # 5.1_BasicPHPandInsert_i308
